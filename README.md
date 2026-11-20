@@ -14,6 +14,11 @@ Ubuntu 24.04–26.04 交互式 zram + 磁盘 swap 工具：启动先输出当前
 ## 使用
 
 ```bash
+git clone https://github.com/jntm667/zram-swap-kit.git
+# 国内访问 GitHub 慢时，可改用 Gitee 镜像（可选加速）：
+# git clone https://gitee.com/jntm667/zram-swap-kit.git
+
+cd zram-swap-kit
 sudo bash zram.sh
 # 或
 chmod +x zram.sh && sudo ./zram.sh
