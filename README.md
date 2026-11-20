@@ -82,3 +82,11 @@ sudo sed -i '/\/swapfile/d' /etc/fstab
 ```
 
 回滚后如需恢复安装器默认的 `/swap.img`，重建并写回 fstab 即可。
+
+## AI 辅助声明
+
+本项目由 AI 辅助创建：脚本和文档初稿由 AI 生成，AI 工具不主张版权。项目按 MIT 协议"按原样"（AS IS）提供，使用风险自负。
+
+## 许可证
+
+[MIT](LICENSE) © 2026 jntm667
